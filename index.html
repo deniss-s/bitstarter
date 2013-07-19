@@ -168,14 +168,14 @@
             <!-- www.google.com/fonts/specimen/Ubuntu -->
             <!-- www.google.com/fonts/specimen/Ubuntu#pairings -->
             <div class="row-fluid heading">
-                <div class="span2"><h1>Product</h1></div>
+                <div class="span2"><h1>Fox hunting</h1></div>
             </div>
 
             <div class="row-fluid subheading">
                 <div class="span12">
                     <!-- Special typography from Bootstrap for lead paragraph. -->
                     <!-- http://twitter.github.io/bootstrap/base-css.html#typography -->
-                    <p class="lead">One sentence description.</p>
+                    <p class="lead">Good old paper and pencil game - a mixture of battleship and minesweeper.</p>
                 </div>
             </div>
 
@@ -189,19 +189,19 @@
                         <div class="statistics">
                            <div class="span4">
                                <div class="linediv-l">
-                                   <h3>1000</h3><p>backers</p>
+                                   <h3>0</h3><p>backers</p>
                                </div>
                             </div>
 
                             <div class="span4">
                                 <div class="linediv-c">
-                                    <h3>$6000</h3><p>of $10,000</p>
+                                    <h3>$0</h3><p>of $5,000</p>
                                 </div>
                             </div>
 
                             <div class="span4">
                                 <div class="linediv-r">
-                                    <h3>10</h3><p>days left</p>
+                                    <h3>100</h3><p>days left</p>
                                 </div>
                             </div>
                         </div> <!--statistics -->
@@ -228,11 +228,16 @@
             <!-- Marketing copy -->
             <div class="row-fluid section1">
                 <div class="span5 offset1 asset">
-                    <img class="img-polaroid" src="http://placehold.it/480x300" alt="480x300" />
+                    <img class="img-polaroid" src="http://i.imgur.com/DvWEDAB.png" alt="Game rules" />
                 </div>
                 <div class="span5 copy">
                     <p>
-                        Lorem ipsum dolor sit amet...
+                       Fox Hunting is a logical game first published in USSR's scientific magazine in 1985 by A. Neschetny.
+                       Rules of the game are quite simple - there are 9 foxes hidden on he 10 x 10 play grid and your goal is
+                       to find all of them.
+                       By choosing any tile on the grid you can find a fox hiding under it, or you are provided with a number 
+                       stating how many foxes there are on the same line with the given tile. The faster you find all the foxes 
+                       and the less moves you make the better.
                     </p>
                 </div>
             </div> <!-- section1 -->
@@ -240,11 +245,16 @@
             <div class="row-fluid section2">
                 <div class="span5 offset1 copy copy-right">
                     <p>
-                        Lorem ipsum dolor sit amet...
+                        The idea is to build public API which can be used to implement clients for desktop and mobiles devices.
+                        The best approach would be to place it in a cloud to provide online multiplayer gaming for clients, 
+                        with public high score boards.
+                    </p>
+                    <p>
+                        In addition to the API it is also planned to implement at least one client, probably for Android devices.
                     </p>
                 </div>
                 <div class="span5 asset">
-                    <img class="img-polaroid" src="http://placehold.it/480x300" alt="480x300" />
+                    <img class="img-polaroid" src="http://i.imgur.com/UQC9VVC.png" alt="Fox Hunting could API" />
                 </div>
             </div> <!-- section2 -->
 
@@ -255,23 +265,41 @@
                     <div id="accordion2" class="accordion">
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a href="#collapseOne" class="accordion-toggle" 
-                                   data-toggle="collapse" data-parent="#accordion2">What does FAQ stand for?</a>
+                                <a href="#q1" class="accordion-toggle" 
+                                   data-toggle="collapse" data-parent="#accordion2">Is there a single player mode?</a>
                             </div>
-                            <div id="collapseOne" class="accordion-body collapse">
-                                <div class="accordion-inner">Frequently Asked Questions.</div>
+                            <div id="q1" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    Yes, there is. You can play alone like in Minesweeper, or you can play with someone like in Battleship.
+                                </div>
                             </div>
-                        </div> <!-- accordion-group -->
+                        </div>
 
                         <div class="accordion-group">
                             <div class="accordion-heading">
-                                <a href="#collapseTwo" class="accordion-toggle" 
-                                   data-toggle="collapse" data-parent="#accordion2">What does FAQ stand for?</a>
+                                <a href="#q2" class="accordion-toggle" 
+                                   data-toggle="collapse" data-parent="#accordion2">Are there any existing implementations of this game?</a>
                             </div>
-                            <div id="collapseTwo" class="accordion-body collapse">
-                                <div class="accordion-inner">A question which is commonly asked by users.<div>
+                            <div id="q2" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    Yes, there are some online implementations, as well as few amateur desktop implementations, and 
+                                    there is at least one for Android.
+                                </div>
                             </div>
-                        </div> <!-- accordion-group -->
+                        </div>
+
+                        <div class="accordion-group">
+                            <div class="accordion-heading">
+                                <a href="#q3" class="accordion-toggle" 
+                                   data-toggle="collapse" data-parent="#accordion2">Why do we need another implementation of this game?</a>
+                            </div>
+                            <div id="q3" class="accordion-body collapse">
+                                <div class="accordion-inner">
+                                    Well, mine will be the best. :) And seriously, as I know there are no implementations  with multiplayer
+                                    support. The idea is to make it possible for users with different client to play with each other.
+                                </div>
+                            </div>
+                        </div>
                     </div> <!-- accordion -->
                 </div>
             </div> <!-- faq -->
